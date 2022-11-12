@@ -52,6 +52,7 @@
 		30297C7C291F6B7A00593AC4 /* Letter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letter.swift; sourceTree = "<group>"; };
 		30297C7F291F6C3400593AC4 /* LetterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterView.swift; sourceTree = "<group>"; };
 		30297C81291F742E00593AC4 /* AnimatingNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingNumberView.swift; sourceTree = "<group>"; };
+		30297C83291F851A00593AC4 /* Quick-Spell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Quick-Spell-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +103,7 @@
 		30297C4C291F6A6F00593AC4 /* Quick Spell */ = {
 			isa = PBXGroup;
 			children = (
+				30297C83291F851A00593AC4 /* Quick-Spell-Info.plist */,
 				30297C7E291F6C2700593AC4 /* Views */,
 				30297C7B291F6B6D00593AC4 /* Data */,
 				30297C78291F6A9600593AC4 /* dictionary.txt */,
@@ -452,6 +454,7 @@
 				DEVELOPMENT_TEAM = P4S65M93XJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Quick-Spell-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -484,6 +487,7 @@
 				DEVELOPMENT_TEAM = P4S65M93XJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Quick-Spell-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
